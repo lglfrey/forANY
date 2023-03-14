@@ -1,0 +1,152 @@
+body {
+  font-size: 18px !important;
+}
+
+.ao {
+  background-color: #ffffff !important;
+}
+
+.btn-custom {
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #7892c2;
+  border-radius: 5px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  padding: 15px 53px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+
+.btn-custom:hover {
+  background-color: #81a0c7;
+}
+
+.btn-custom:active {
+  position: relative;
+  top: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-error {
+  color: crimson;
+}
+
+.switcher {
+  background: #727273;
+  opacity: 0.24;
+  border-radius: 76px;
+  position: relative;
+  width: 36px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.switcher .slider {
+  background: #ffffff;
+  border-radius: 76px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 2px;
+  left: 0;
+  transition: all 0.1s ease-in;
+}
+
+.switcher.on {
+  background: rgba(255, 75, 0, 0.93);
+  opacity: 1;
+}
+
+.switcher.on .slider {
+  left: 16px;
+}
+
+.switcher input {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.login-form-container {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow-y: auto;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.login-form {
+  padding: 2rem;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 575px) {
+  .login-form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-form {
+    width: 500px;
+  }
+}
+
+.login-form .login-button {
+  font-size: 1.3rem;
+  border-radius: 0;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.login-form input.form-control {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0;
+  color: #333;
+}
+
+.login-form input.is-invalid {
+  border-bottom: 1px solid #dc3545;
+}
+
+.container-left {
+  background-color: #cd572a;
+  display: inline-block;
+  margin-top: 100px;
+  width: 109px;
+  height: 183px;
+  border: 1px solid black;
+  margin-inline: 5px 10px;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  background-color: #cd572a;
+  font-size: 10px;
+  width: 109px;
+  height: 183px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 25px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.back {
+  background-color: #b03100;
+}

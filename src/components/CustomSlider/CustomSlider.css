@@ -1,0 +1,97 @@
+:root {
+  --main-color: #d67856;
+  --main-color-hover: rgb(104, 117, 217, 0.2);
+  --track-color: #ddd;
+}
+
+.custom-slider-wrapper {
+  position: fixed !important;
+  bottom: 50vh;
+  right: 1.5rem;
+  z-index: 1;
+  height: 50vh;
+  transform: translateY(50%);
+  background: #fff;
+  padding: 1rem;
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+}
+
+.custom-slider-addon {
+  width: 1.5rem;
+  height: 1.4rem;
+  margin: 5.5px;
+  text-align: center;
+}
+
+.custom-slider {
+  flex: 1;
+}
+
+.custom-slider-track {
+  width: 0.5rem;
+  left: 0.5rem;
+}
+
+.custom-slider-circle {
+  width: 20px;
+  height: 20px;
+  background: #ED713E;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0.5px;
+}
+
+.custom-slider-info {
+  font-size: 14px;
+  margin: -1px;
+  margin-top: -5px;
+  color: #ED713E;
+}
+
+.custom-slider-track.custom-slider-track-0 {
+  background: var(--main-color);
+}
+
+.custom-slider-track.custom-slider-track-1 {
+  background: #f4cbb7;
+}
+
+.custom-slider-thumb {
+  cursor: pointer;
+  /*color for the thumb */
+  background: #f79366;
+  /* shape of the thumb: circle */
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  /* remove default outline when selected */
+  outline: none;
+}
+
+.custom-slider-thumb:hover {
+  box-shadow: 0 0 0 0.5rem #f7946688;
+}
+
+.custom-slider-mark {
+  cursor: pointer;
+  top: 0.5rem;
+  width: 0.1rem;
+  height: 0.5rem;
+  background-color: var(--mark-color);
+}
+
+.custom-slider-mark.custom-slider-mark-before {
+  background-color: var(--main-color);
+}
+
+.custom-slider-mark.custom-slider-mark-active {
+  display: none;
+}

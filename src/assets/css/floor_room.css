@@ -1,0 +1,107 @@
+@media(min-width: 300px) {
+    .select-ce {
+        margin-top: -600px;
+        width: 93%;
+        height: 50px;
+        position: absolute;
+    }
+}
+
+@media(max-width: 400px) {
+    .select-ce {
+        margin-top: -600px;
+        position: absolute;
+        width: 93%;
+        height: 40px;
+    }
+}
+
+.react-transform-wrapper {
+    margin-top: 115px;
+    height: 650px;
+    border: 2px solid darkgray;
+}
+
+.pict {
+    background-image: url(../images/headere-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pict-svg {
+    background-image: url(../images/floor3_svg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 4026.13px;
+    height: 3486.78px;
+    position: absolute;
+    left: 4px;
+}
+
+.choose-room {
+    width: 200px;
+    margin: 21px;
+    size: 10px;
+    color: #ffffff;
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.login-form-container {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-y: auto;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+header {
+    margin: 0;
+    height: 65px;
+}
+
+path {
+    pointer-events: auto;
+}
+
+.test-me {
+    font-size: 100px;
+}
+
+#gear-wheel {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 88.55%;
+    right: 5.84%;
+    top: 34.39%;
+}
+
+#hide-rooms {
+    margin: 7px 5px;
+}
+
+#hide-input {
+    transform: scale(1);
+    float: right;
+    margin: -19px 6px; 
+}
+
+#label_hide{
+    font-size: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: #F8F8FF;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0.5px;
+    /* margin: -610px 6px; */
+}
+
+.floating-button{
+    top: 140px;
+}
